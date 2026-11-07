@@ -1,0 +1,10 @@
+# Model configuration
+models:
+  - id: badrex/Ethio-ASR-multilingual-94M
+    alias: ethio-94m
+  - id: badrex/Ethio-ASR-multilingual-300M
+    alias: ethio-300m
+  - id: badrex/Ethio-ASR-multilingual-600M
+    alias: ethio-600m
+  - id: b1n1yam/shook-tiny-amharic-600hr
+    alias: amharic-tiny

@@ -1,0 +1,26 @@
+# Python virtual environment
+venv/
+# Downloaded model weights (large binaries)
+models/original/**/pytorch_model.bin
+models/original/**/tf_model.h5
+models/original/**/tf_model.ckpt
+# ONNX artifacts – they are generated, not source
+models/onnx/**/model.*.onnx
+models/quantized/**/model.*.onnx
+# Logs, temporary files, caches
+logs/
+output/**/reports/*
+output/**/benchmarks/*
+*.log
+__pycache__/
+*.pyc
+*.pyo
+# Datasets (large audio)
+datasets/*.wav
+# Dist / build artifacts
+build/
+dist/
+*.egg-info/
+# IDE / editor files
+*.idea/
+*.vscode/
