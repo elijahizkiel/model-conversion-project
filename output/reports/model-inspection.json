@@ -1,0 +1,49 @@
+{
+  "ethio-94m": {
+    "alias": "ethio-94m",
+    "repo_id": "badrex/Ethio-ASR-multilingual-94M",
+    "model_type": "hubert",
+    "architecture": [
+      "HubertForCTC"
+    ],
+    "parameters": {
+      "total": 94690848,
+      "trainable": 94690848
+    },
+    "inputs": [
+      {
+        "name": "input_values",
+        "shape": [
+          "batch_size",
+          "sequence_length"
+        ],
+        "dtype": "float32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "logits",
+        "shape": [
+          "batch_size",
+          "frame_length",
+          416
+        ],
+        "dtype": "float32"
+      }
+    ],
+    "audio_requirements": {
+      "sampling_rate": 16000,
+      "channels": 1,
+      "normalization": "zero_mean_unit_variance"
+    },
+    "ctc_parameters": {
+      "vocab_size": 416,
+      "pad_token_id": 408,
+      "blank_token_id": 408,
+      "bos_token_id": 1,
+      "eos_token_id": 2
+    },
+    "processor_class": "Wav2Vec2Processor",
+    "tokenizer_class": "Wav2Vec2CTCTokenizer"
+  }
+}

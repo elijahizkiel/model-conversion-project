@@ -1,0 +1,105 @@
+{
+  "alias": "ethio-94m",
+  "repo_id": "badrex/Ethio-ASR-multilingual-94M",
+  "benchmarks": [
+    {
+      "model": "ethio-94m",
+      "precision": "FP32",
+      "file_size_mb": 361.45,
+      "load_time_sec": 2.345,
+      "audio_duration_sec": 1.0,
+      "median_infer_sec": 0.65,
+      "rtf": 0.65,
+      "peak_ram_mb": 775.91,
+      "avg_cpu_percent": 289.3
+    },
+    {
+      "model": "ethio-94m",
+      "precision": "FP32",
+      "file_size_mb": 361.45,
+      "load_time_sec": 2.345,
+      "audio_duration_sec": 3.0,
+      "median_infer_sec": 2.4334,
+      "rtf": 0.8111,
+      "peak_ram_mb": 776.46,
+      "avg_cpu_percent": 251.2
+    },
+    {
+      "model": "ethio-94m",
+      "precision": "FP32",
+      "file_size_mb": 361.45,
+      "load_time_sec": 2.345,
+      "audio_duration_sec": 10.0,
+      "median_infer_sec": 4.9279,
+      "rtf": 0.4928,
+      "peak_ram_mb": 902.77,
+      "avg_cpu_percent": 290.2
+    },
+    {
+      "model": "ethio-94m",
+      "precision": "FP16",
+      "file_size_mb": 180.84,
+      "load_time_sec": 1.863,
+      "audio_duration_sec": 1.0,
+      "median_infer_sec": 1.1553,
+      "rtf": 1.1553,
+      "peak_ram_mb": 847.83,
+      "avg_cpu_percent": 356.3
+    },
+    {
+      "model": "ethio-94m",
+      "precision": "FP16",
+      "file_size_mb": 180.84,
+      "load_time_sec": 1.863,
+      "audio_duration_sec": 3.0,
+      "median_infer_sec": 2.2776,
+      "rtf": 0.7592,
+      "peak_ram_mb": 850.02,
+      "avg_cpu_percent": 326.2
+    },
+    {
+      "model": "ethio-94m",
+      "precision": "FP16",
+      "file_size_mb": 180.84,
+      "load_time_sec": 1.863,
+      "audio_duration_sec": 10.0,
+      "median_infer_sec": 5.6992,
+      "rtf": 0.5699,
+      "peak_ram_mb": 850.02,
+      "avg_cpu_percent": 321.9
+    },
+    {
+      "model": "ethio-94m",
+      "precision": "INT8",
+      "file_size_mb": 117.0,
+      "load_time_sec": 1.162,
+      "audio_duration_sec": 1.0,
+      "median_infer_sec": 0.3306,
+      "rtf": 0.3306,
+      "peak_ram_mb": 688.1,
+      "avg_cpu_percent": 345.9
+    },
+    {
+      "model": "ethio-94m",
+      "precision": "INT8",
+      "file_size_mb": 117.0,
+      "load_time_sec": 1.162,
+      "audio_duration_sec": 3.0,
+      "median_infer_sec": 1.0614,
+      "rtf": 0.3538,
+      "peak_ram_mb": 726.1,
+      "avg_cpu_percent": 304.5
+    },
+    {
+      "model": "ethio-94m",
+      "precision": "INT8",
+      "file_size_mb": 117.0,
+      "load_time_sec": 1.162,
+      "audio_duration_sec": 10.0,
+      "median_infer_sec": 2.9001,
+      "rtf": 0.29,
+      "peak_ram_mb": 750.1,
+      "avg_cpu_percent": 334.7
+    }
+  ]
+}

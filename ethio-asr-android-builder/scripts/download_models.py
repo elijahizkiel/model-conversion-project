@@ -25,11 +25,14 @@ def download(alias, repo_id):
         local_path = snapshot_download(repo_id=repo_id, local_dir=dest, resume_download=True, allow_patterns=["*"], max_workers=4)
         # Record metadata
         info = repo_info(repo_id)
+        license_val = getattr(info, "cardData", {}).get("license") if hasattr(info, "cardData") and isinstance(info.cardData, dict) else getattr(info, "license", "unknown")
+        if not license_val:
+            license_val = "unknown"
         meta = {
             "repo_id": repo_id,
             "local_path": str(local_path),
-            "revision": info.sha,
-            "license": info.license,
+            "revision": getattr(info, "sha", "unknown"),
+            "license": license_val,
             "model_card": f"https://huggingface.co/{repo_id}",
         }
         meta_path = dest / "download_meta.json"

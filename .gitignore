@@ -1,26 +1,30 @@
-# Python virtual environment
+# Git ignore rules for Ethio-ASR project
+
+# Virtual Environment
 venv/
-# Downloaded model weights (large binaries)
-models/original/**/pytorch_model.bin
-models/original/**/tf_model.h5
-models/original/**/tf_model.ckpt
-# ONNX artifacts – they are generated, not source
-models/onnx/**/model.*.onnx
-models/quantized/**/model.*.onnx
-# Logs, temporary files, caches
-logs/
-output/**/reports/*
-output/**/benchmarks/*
-*.log
+.venv/
+
+# Downloaded HuggingFace model weights & caches
+models/original/
+models/onnx/
+models/quantized/
+output/android/*/model.onnx
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+*.onnx
+
+# Python caches
 __pycache__/
-*.pyc
-*.pyo
-# Datasets (large audio)
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Audio datasets
 datasets/*.wav
-# Dist / build artifacts
-build/
-dist/
-*.egg-info/
-# IDE / editor files
-*.idea/
-*.vscode/
+datasets/*.mp3
+
+# Logs & temp files
+logs/
+*.log

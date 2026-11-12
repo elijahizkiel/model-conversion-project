@@ -1,0 +1,65 @@
+{
+  "alias": "ethio-94m",
+  "repo_id": "badrex/Ethio-ASR-multilingual-94M",
+  "languages": {
+    "amharic": {
+      "pytorch_transcription": "",
+      "fp32_transcription": "",
+      "fp16_transcription": "",
+      "int8_transcription": "",
+      "wer_fp32_vs_pt": 0.0,
+      "wer_fp16_vs_pt": 0.0,
+      "wer_int8_vs_pt": 0.0
+    },
+    "afaan_oro": {
+      "pytorch_transcription": "",
+      "fp32_transcription": "",
+      "fp16_transcription": "",
+      "int8_transcription": "",
+      "wer_fp32_vs_pt": 0.0,
+      "wer_fp16_vs_pt": 0.0,
+      "wer_int8_vs_pt": 0.0
+    },
+    "tigrinya": {
+      "pytorch_transcription": "",
+      "fp32_transcription": "",
+      "fp16_transcription": "",
+      "int8_transcription": "",
+      "wer_fp32_vs_pt": 0.0,
+      "wer_fp16_vs_pt": 0.0,
+      "wer_int8_vs_pt": 0.0
+    },
+    "sidama": {
+      "pytorch_transcription": "",
+      "fp32_transcription": "",
+      "fp16_transcription": "",
+      "int8_transcription": "",
+      "wer_fp32_vs_pt": 0.0,
+      "wer_fp16_vs_pt": 0.0,
+      "wer_int8_vs_pt": 0.0
+    },
+    "wolaytta": {
+      "pytorch_transcription": "",
+      "fp32_transcription": "",
+      "fp16_transcription": "",
+      "int8_transcription": "",
+      "wer_fp32_vs_pt": 0.0,
+      "wer_fp16_vs_pt": 0.0,
+      "wer_int8_vs_pt": 0.0
+    }
+  },
+  "numerical_metrics": {
+    "fp32_vs_pytorch": {
+      "max_abs_diff": 1.621246337890625e-05,
+      "mean_abs_diff": 3.0106588383205234e-06
+    },
+    "fp16_vs_pytorch": {
+      "max_abs_diff": 0.0073070526123046875,
+      "mean_abs_diff": 0.001193987368606031
+    },
+    "int8_vs_pytorch": {
+      "max_abs_diff": 0.2828054428100586,
+      "mean_abs_diff": 0.07146997898817062
+    }
+  }
+}
