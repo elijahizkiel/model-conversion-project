@@ -28,3 +28,4 @@ datasets/*.mp3
 # Logs & temp files
 logs/
 *.log
+output/dist/
