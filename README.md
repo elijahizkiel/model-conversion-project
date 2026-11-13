@@ -176,4 +176,6 @@ tar -xzvf ethio-asr-94m-int8-android.tar.gz -C app/src/main/assets/asr/
 ---
 
 ## 📄 License
-The underlying models are developed by the Ethio-ASR project team. The conversion scripts, tools, and Android integration code in this repository are distributed under the Apache-2.0 License.
+The conversion scripts, toolchain, and Android integration code in this repository are licensed under the [MIT License](LICENSE).
+
+The underlying pretrained speech recognition models are developed by the Ethio-ASR project team (`badrex/Ethio-ASR-*`).
